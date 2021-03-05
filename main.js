@@ -166,7 +166,7 @@ function statechange() {
         rtrn.classList.add("d-block");
         let s = answers (); // an array of <li>
         // 
-        instructions.innerHTML = "<p>Reveal</p> <ul class='overflow-auto justify-content-center align-self-center' style='max-height :100px;'>" + s.join('') + '</ul>';
+        instructions.innerHTML = "<p>Reveal</p> <ul class='overflow-auto justify-content-center align-self-center bg-dark text-white' style='max-height :100px;'>" + s.join('') + '</ul>';
         mainText.innerHTML = "Find your number's symbol:";
 
     }
